@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		58BF34831DC8A51400E0DAC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF34821DC8A51400E0DAC5 /* main.m */; };
 		58BF34861DC8A51400E0DAC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF34851DC8A51400E0DAC5 /* AppDelegate.m */; };
-		58BF34891DC8A51400E0DAC5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF34881DC8A51400E0DAC5 /* ViewController.m */; };
 		58BF348C1DC8A51400E0DAC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BF348A1DC8A51400E0DAC5 /* Main.storyboard */; };
 		58BF348E1DC8A51400E0DAC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58BF348D1DC8A51400E0DAC5 /* Assets.xcassets */; };
 		58BF34911DC8A51400E0DAC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58BF348F1DC8A51400E0DAC5 /* LaunchScreen.storyboard */; };
 		58BF349C1DC8A51400E0DAC5 /* JJSimpleRevealVCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF349B1DC8A51400E0DAC5 /* JJSimpleRevealVCDemoTests.m */; };
 		58BF34A71DC8A51400E0DAC5 /* JJSimpleRevealVCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF34A61DC8A51400E0DAC5 /* JJSimpleRevealVCDemoUITests.m */; };
+		58BF34B61DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF34B51DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 		58BF34821DC8A51400E0DAC5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58BF34841DC8A51400E0DAC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58BF34851DC8A51400E0DAC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		58BF34871DC8A51400E0DAC5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		58BF34881DC8A51400E0DAC5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		58BF348B1DC8A51400E0DAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58BF348D1DC8A51400E0DAC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58BF34901DC8A51400E0DAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +49,8 @@
 		58BF34A21DC8A51400E0DAC5 /* JJSimpleRevealVCDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JJSimpleRevealVCDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58BF34A61DC8A51400E0DAC5 /* JJSimpleRevealVCDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JJSimpleRevealVCDemoUITests.m; sourceTree = "<group>"; };
 		58BF34A81DC8A51400E0DAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58BF34B41DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSimpleRevealViewController.h; sourceTree = "<group>"; };
+		58BF34B51DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSimpleRevealViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +103,8 @@
 			children = (
 				58BF34841DC8A51400E0DAC5 /* AppDelegate.h */,
 				58BF34851DC8A51400E0DAC5 /* AppDelegate.m */,
-				58BF34871DC8A51400E0DAC5 /* ViewController.h */,
-				58BF34881DC8A51400E0DAC5 /* ViewController.m */,
-				58BF348A1DC8A51400E0DAC5 /* Main.storyboard */,
-				58BF348D1DC8A51400E0DAC5 /* Assets.xcassets */,
-				58BF348F1DC8A51400E0DAC5 /* LaunchScreen.storyboard */,
-				58BF34921DC8A51400E0DAC5 /* Info.plist */,
+				58BF34B41DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.h */,
+				58BF34B51DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m */,
 				58BF34811DC8A51400E0DAC5 /* Supporting Files */,
 			);
 			path = JJSimpleRevealVCDemo;
@@ -117,6 +113,10 @@
 		58BF34811DC8A51400E0DAC5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				58BF348A1DC8A51400E0DAC5 /* Main.storyboard */,
+				58BF348D1DC8A51400E0DAC5 /* Assets.xcassets */,
+				58BF348F1DC8A51400E0DAC5 /* LaunchScreen.storyboard */,
+				58BF34921DC8A51400E0DAC5 /* Info.plist */,
 				58BF34821DC8A51400E0DAC5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -276,9 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58BF34891DC8A51400E0DAC5 /* ViewController.m in Sources */,
 				58BF34861DC8A51400E0DAC5 /* AppDelegate.m in Sources */,
 				58BF34831DC8A51400E0DAC5 /* main.m in Sources */,
+				58BF34B61DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
