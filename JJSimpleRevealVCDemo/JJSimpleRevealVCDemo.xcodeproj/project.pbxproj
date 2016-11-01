@@ -15,6 +15,7 @@
 		58BF349C1DC8A51400E0DAC5 /* JJSimpleRevealVCDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF349B1DC8A51400E0DAC5 /* JJSimpleRevealVCDemoTests.m */; };
 		58BF34A71DC8A51400E0DAC5 /* JJSimpleRevealVCDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF34A61DC8A51400E0DAC5 /* JJSimpleRevealVCDemoUITests.m */; };
 		58BF34B61DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF34B51DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m */; };
+		58BF34B91DC8A69300E0DAC5 /* JJLeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BF34B81DC8A69300E0DAC5 /* JJLeftViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		58BF34A81DC8A51400E0DAC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58BF34B41DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJSimpleRevealViewController.h; sourceTree = "<group>"; };
 		58BF34B51DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJSimpleRevealViewController.m; sourceTree = "<group>"; };
+		58BF34B71DC8A69300E0DAC5 /* JJLeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJLeftViewController.h; sourceTree = "<group>"; };
+		58BF34B81DC8A69300E0DAC5 /* JJLeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJLeftViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				58BF34851DC8A51400E0DAC5 /* AppDelegate.m */,
 				58BF34B41DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.h */,
 				58BF34B51DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m */,
+				58BF34B71DC8A69300E0DAC5 /* JJLeftViewController.h */,
+				58BF34B81DC8A69300E0DAC5 /* JJLeftViewController.m */,
 				58BF34811DC8A51400E0DAC5 /* Supporting Files */,
 			);
 			path = JJSimpleRevealVCDemo;
@@ -279,6 +284,7 @@
 				58BF34861DC8A51400E0DAC5 /* AppDelegate.m in Sources */,
 				58BF34831DC8A51400E0DAC5 /* main.m in Sources */,
 				58BF34B61DC8A5EA00E0DAC5 /* JJSimpleRevealViewController.m in Sources */,
+				58BF34B91DC8A69300E0DAC5 /* JJLeftViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
